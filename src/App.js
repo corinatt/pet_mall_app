@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <NavBar/>
       <header className="App-header">
+        <h1 className='text-3xl font-bolde underline'> BIENVENIDOS</h1>
         {/* todo lo que esta dentro del header se puede eliminar y trabajar dentro 
         <img src={logo} className="App-logo" alt="logo" />
-        <h1> HOLA CORINA Bienvenida a React</h1>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

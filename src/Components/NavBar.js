@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
     return (
-        <div>
+        <div className="flex justify-evenly text-xl ">
             <li>Inicio</li>
             <li>Productos</li>
             <li>Alimentos</li>
