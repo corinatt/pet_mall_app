@@ -9,7 +9,7 @@ function App() {
       <div className='bg-gradient-to-r from-indigo-500'/>
 
       <DaisyNavBar/>
-      {/*<NavBar/>*/}
+    
     
     </div>
   );
