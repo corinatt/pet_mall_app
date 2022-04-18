@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import NavBar from './Components/NavBar';
 
 function App() {
   return (
     <div className="App">
+      <NavBar/>
       <header className="App-header">
-        {/* todo lo que esta dentro del header se puede eliminar y trabajar dentro */}
+        {/* todo lo que esta dentro del header se puede eliminar y trabajar dentro 
         <img src={logo} className="App-logo" alt="logo" />
         <h1> HOLA CORINA Bienvenida a React</h1>
         <p>
@@ -18,7 +20,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a>*/}
       </header>
     </div>
   );
