@@ -1,3 +1,5 @@
+const themes = require("daisyui/src/colors/themes");
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}"
@@ -8,4 +10,8 @@ module.exports = {
   plugins: [
     require("daisyui")
   ],
+  daisyui: {
+    themes: false,
+  }, 
+    
 }

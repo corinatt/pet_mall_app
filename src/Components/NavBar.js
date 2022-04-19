@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 
 const NavBar = () => {
     return (
@@ -13,3 +13,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
+ */
