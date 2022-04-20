@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 const ItemListContainer = () => {
     return (
-    <div>ItemListContainer</div>
+    <div className='flex justify-center m-10'>ItemListContainer</div>
     )
 }
 
