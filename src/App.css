@@ -1,8 +1,18 @@
-/* .App {
-  text-align: center;
+.App {
+text-align: center;
 }
 
-.App-logo {
+.button {
+  padding: 10px;
+  background-color: rgb(127, 127, 126);
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+.button:hover {
+  background-color: rgb(38, 185, 109);
+}
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
