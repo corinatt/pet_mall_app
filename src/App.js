@@ -2,7 +2,7 @@
 import './App.css';
 import DaisyNavBar from './Components/DaisyNavBar';
 import ItemListContainer from './Components/ItemListContainer';
-import NavBar from './Components/NavBar';
+
 
 function App() {
   return (
