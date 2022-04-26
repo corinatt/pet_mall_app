@@ -25,7 +25,7 @@ const DaisyNavBar = () => {
                         <li><a>Contacto</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">Inicio</a>
+                <a className="btn btn-ghost normal-case text-xl">PET MALL</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
