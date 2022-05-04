@@ -3,27 +3,27 @@ export const datosList = [
 {
     id: '1',
     name: 'Collar',
-    color: 'Rojo',
+    color: 'Color Rojo',
 },
 {
     id: '2',
     name: 'Correas ',
-    color: 'Azul',
+    color: 'Color Azul',
 },
 {
     id: '3',
     name: 'Cepillo',
-    color: 'Azul',
+    color: 'Color Azul',
 },
 {
     id: '4',
     name: 'Bolsos',
-    size: '30x30',
+    size: 'Medidas 30x30',
 },
 {
     id: '5',
     name: 'Transportadores',
-    size: '50x30',
+    size: 'Medidas 50x30',
 },
 
 ]
