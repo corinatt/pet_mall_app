@@ -23,6 +23,7 @@ const ItemCount = () => {
             <button className='button' onClick={addHandler}> + </button>
         </>
     )
+    
 }
 
 export default ItemCount
