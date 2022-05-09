@@ -4,14 +4,14 @@ import {useState} from 'react'
 
 const ItemCount = () => {
 
-    const [Contador, setContador] = useState(0)
+    const [contador, setContador] = useState(0)
     
     const addHandler = () =>{ 
-    setContador(Contador + 1);
+    setContador(contador + 1);
     }
 
     const restHandler = () => {
-        setContador(Contador - 1)    
+        setContador(contador - 1)    
     }
     
 
@@ -19,7 +19,7 @@ const ItemCount = () => {
         <>
             <div>Cantidad</div>
             <button className='button' onClick={restHandler}> - </button>
-            <strong> {Contador} </strong>
+            <strong> {contador} </strong>
             <button className='button' onClick={addHandler}> + </button>
         </>
     )

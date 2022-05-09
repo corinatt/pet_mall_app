@@ -2,23 +2,33 @@
 import './App.css';
 import DaisyNavBar from './Components/DaisyNavBar';
 import ItemCount from './Components/ItemCount';
-//import ItemDetailContainer from './Components/ItemDetailContainer';
 import ItemListContainer from './Components/ItemListContainer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import ItemList from './Components/ItemList';
+import ItemDetail from './Components/itemDetailContainer/ItemDetail'
+
+
 
 
 function App() {
+
   return (
-    <div className="App">
-      <div className='bg-gradient-to-r from-indigo-500 '/>
-      
-      <DaisyNavBar/>
-      <ItemListContainer/>
-      {/* <ItemDetailContainer/> */}
-      <ItemCount/>
-      
-    
-    </div>
-  );
+
+    <BrowserRouter>
+      <DaisyNavBar />
+      <Routes>
+        <Route path='/' element={<ItemListContainer/>} />
+        <Route path='/producto/:cantId' element={<ItemListContainer/>} />
+        <Route path='/item/:itemId ' element={<ItemDetail/>} />
+        <Route path='/contador' element={<ItemCount/>} />
+        <Route />
+        <Route />
+        
+      </Routes>
+    </BrowserRouter>
+
+
+  )
 }
 
 export default App;
