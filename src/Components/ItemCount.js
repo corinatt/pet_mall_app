@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 
-const ItemCount = () => {
+const ItemCount = ( { onAdd}) => {
 
     const [contador, setContador] = useState(0)
 
@@ -19,9 +19,10 @@ const ItemCount = () => {
     return (
         <>
             <div>Cantidad</div>
-            <button className='button' onClick={restHandler}> - </button>
+            <button className='button-menos' onClick={restHandler}> - </button>
             <strong> {contador} </strong>
-            <button className='button' onClick={addHandler}> + </button>
+            <button className='button-mas' onClick={addHandler}> + </button>
+            <button className='btn-carrito' onClick={onAdd}> Agregar al Carrito</button>
 
         </>
     )

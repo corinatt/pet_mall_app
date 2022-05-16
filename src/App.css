@@ -4,7 +4,7 @@ background-color: rgb(167, 198, 198);
 }
 
 
-.button {
+.button-mas {
   height: 30px;
   width: 30px;
   padding: 5px;
@@ -13,8 +13,32 @@ background-color: rgb(167, 198, 198);
   color: aliceblue;
 }
 
-.button:hover {
+.button-mas:hover {
   background-color: rgb(38, 185, 109);
+}
+
+.button-menos {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  background-color: rgb(127, 127, 126);
+  border-radius: 5px;
+  color: aliceblue;
+}
+.button-menos:hover {
+  background-color: rgb(94, 97, 96);
+}
+.btn-carrito{
+  margin: 5px;
+  padding: 10px;
+  border-style: solid 5px;
+  border-radius: 10px;
+  color: aliceblue;
+  background-color: rgb(106, 163, 224);
+}
+
+.btn-carrito:hover{
+  background-color: rgb(9, 75, 146);
 }
 
 
