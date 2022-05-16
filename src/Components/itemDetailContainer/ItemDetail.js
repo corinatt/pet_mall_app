@@ -9,17 +9,22 @@ const ItemDetail = () => {
   
   const [detail, setItem] = useState( {} )
   
+  
 
   useEffect(() => {
-    setItem( datosList.find( e => e.id == itemId ) )
+    setItem( datosList.find( e => e.id === itemId ) )
   }, [itemId])
   
 
   return (
     <> 
-    <div>ItemDetail: {itemId}</div>
+    <div>Item: {itemId}</div>
     <li>{detail.id}</li>
-    <li>{detail.name}</li>
+    <li>{detail.name}</li> 
+    <li>{detail.color}</li>
+    <li>{detail.size}</li>
+    <li>{detail.img}</li>
+    <li>Información: {detail.info}</li>
     </>
   )
 }
