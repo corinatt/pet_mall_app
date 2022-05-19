@@ -5,6 +5,7 @@ import { useEffect } from 'react'
 import { useState } from 'react'
 import ItemCount from '../ItemCount'
 
+
 const ItemDetail = () => {
   const onAdd = () => {
     console.log('on add...')
@@ -22,7 +23,8 @@ const ItemDetail = () => {
 
   return (
 
-    <div className='container mx-auto py-10 list-none'>
+
+    <div className='container card-body mx-auto py-10 list-none'>
       <div>Item: {itemId}</div>
       <li>{detail.name}</li>
       <li>{detail.color}</li>
@@ -31,6 +33,8 @@ const ItemDetail = () => {
       <li><strong>Información:</strong> {detail.info}</li>
       <ItemCount onAdd={onAdd} />
     </div>
+
+
 
   )
 }

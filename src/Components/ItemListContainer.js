@@ -5,7 +5,7 @@ import ItemList from './ItemList'
 const ItemListContainer = () => {
     return (
     <> 
-    <h1 className='m-10 text-xl'><strong>Tienda de Mascotas</strong></h1>
+    <h1 className='justify-center m-10 text-xl'><strong>Productos</strong></h1>
     <ItemList/>
     </>
     )
